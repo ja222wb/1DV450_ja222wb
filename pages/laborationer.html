@@ -3,24 +3,24 @@
 
 <head>
 
-	<meta charset="utf-8">
+ <meta charset="utf-8">
 
-	<title>Min länkportal</title>
+ <title>Min länkportal</title>
     
 </head>
 
 
 <body>
 
-	<h1>Min länkportal</h1>
+ <h1>Min länkportal</h1>
     
     <p> Jens Nu fantastiska sajt</p>
     
-    	<ul>
-        	<li><a href="../index.html"> Till startsidan</a></li>
-			<li><a href="pages/presentation.html"> Presentation </a> </li>
-       	 	<li><a href="pages/Kontakt.html"> Kontakt</a></li>
-        	<li><a href="pages/laborationer.html">Laborationer</a></li>
+     <ul>
+         <li><a href="../index.html"> Till startsidan</a></li>
+   <li><a href="pages/presentation.html"> Presentation </a> </li>
+          <li><a href="pages/Kontakt.html"> Kontakt</a></li>
+         <li><a href="pages/laborationer.html">Laborationer</a></li>
         </ul>
       
       <h2> Webbteknisk introduktion</h2>
@@ -29,79 +29,119 @@
              
 
       
-      	<ul>
-      		<li><a href="#laboration1">Laboration1</a></li>
+       <ul>
+        <li><a href="#laboration1">Laboration1</a></li>
             <li> <a href="#laboration2">Laboration2</a></li>
         </ul>
 
-	
-    	<h3> Laboration1 </h3>
-    		<div id="laboration1"></div>
+
+
+<!-- Resultattabell-->
+
+ <table border="1">
+    <thead>
+    
+     <tr>    
+         <th> Laboration</th> 
+            <th> Uppgift</th>
+            <th> Status</th>
+            <th> Redovisad</th>
+        </tr>
+        
+     </thead>
+        
+     <tbody>
+        <tr><td rowspan="3"> 1</td>
+        
+         <td>1</td><td>pågår</td><td>2013-11-18</td></tr>
+        <tr><td>2</td><td>pågår</td><td>2013-11-18</td></tr>
+        <tr><td>3</td><td>pågår</td><td>2013-11-18</td></tr>
+         
+       
+        
+        <tr><td rowspan="6"> 2 </td>
+         <td>1</td><td>ej påbörjad</td>
+                 <td>-</td>
+        </tr>
+        <tr><td>2</td><td>ej påbörjad</td><td>-</td></tr>
+        <tr><td>3</td><td>ej påbörjad</td><td>-</td></tr>
+        <tr><td>4</td><td>ej påbörjad</td><td>-</td></tr>
+        <tr><td>5</td><td>ej påbörjad</td><td>-</td></tr>
+        <tr><td>6</td><td>ej påbörjad</td><td>-</td></tr>
+        
+        </tbody>
+        
+        <tfoot>
+        <tr><td colspan="4">Laborationsresultat gällande Jens Ax</td></tr>
+        
+        </tfoot>
+
+        
+         
+    </table> 
+
+
+ 
+     <h3> Laboration1 </h3>
+      <div id="laboration1"></div>
             
        
-       	<p>Uppgifter:</p>
+        <p>Uppgifter:</p>
 <ol>
-        	<li>www-katalog. Check</li>
+         <li>www-katalog. Check</li>
             <li><a href="http://www.google.com"> Ett första dokument</a></li>
          </ol>
          
          <h3> Laboration 2 </h3>
-			<div id="laboration2"></div>   
+   <div id="laboration2"></div>   
             
          <p> Uppgifter:</p>
           
          <ol>
-         	<li> Absoluta och relativa länkar  
-         		
-          <dl>	<!--fråga 1-->
-          		<dt> Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                	<dd> www.server.se/pages/bottom.html</dd>
-                    
-          </dl>	<!--fråga 2-->
+          <li> Absoluta och relativa länkar </li>
+         </ol>
+          <dl> <!--question 1-->
+            <dt> Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                 <dd class="svar" >http://www.server.se/www/html/pages/bottom.html</dd>                   
+           <!--question 2-->
                 <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt> 
-          	     	<dd>pages/top.html</dd>
-         
-          <dl>	<!--fråga 3-->
-          		<dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>         
-           			<dd>/index.html</dd>
-          </dl>
-          
-          <dl>	<!--fråga 4-->
-          		<dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                	<dd>  ../../index.html</dd>
-           </dl>
-           
-           <dl>	<!--fråga 5-->
-           		<dt>Vilken är den relativa sökvägen från filen top.html till bottom.html? </dt>
+                 <dd>pages/top.html</dd>
+           <!--question 3-->
+            <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>         
+              <dd>/index.html</dd>
+          <!--question 4-->
+            <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                 <dd>  ../../index.html</dd>
+            <!--question 5-->
+             <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html? </dt>
 					<dd>../bottom.html</dd>
-            </dl>
-            
-            <dl>	<!--fråga 6-->
-            	<dt>Vilken är den relativa sökvägen från filen index.html till top.html:</dt>
-                	<dd>hmtl/pages/bottom.html</dd> 
+            <!--question 6-->
+             <dt>Vilken är den relativa sökvägen från filen index.html till top.html:</dt>
+             <dd>hmtl/pages/bottom.html</dd> 
            </dl>
-           
-          </li>
+		  
+		  
           
+		<ol start="2">
           <li>Länkar och listor</li>
-          	<ul><a href="http://www.google.se">Google-sökmotor</a></ul>
-            <ul><a href="http://www.facebook.se">Facebook</a></ul>
-          	<ul><a href="http://www.coursepress.lnu.se">Coursepress-kurshemsida</a></ul>
+		</ol>  
+           <ul>
+		    <li><a href="http://www.google.se">Google-sökmotor</a></li>
+			<li><a href="http://www.facebook.se">Facebook</a></li>
+            <li><a href="http://coursepress.lnu.se">Coursepress-kurshemsida</a></li>
+		   </ul>
          
-         <p>
+		<ol start="3">
            <li> Bilder </li>
-           	....Kommer inom kort  
-         </p>
+         </ol>
+           <ul>
+             <li><a href="presentation.html#pressbild"> Klicka här!</a> </li>
+           </ul> 
+		   <ol start="4">
+          <li> Video </li>
+         </ol>
          
-         <p>
-         	<li> Video </li>
-         	....Kommer inom kort
-         </p>
-          
-          </ol>
-
-            
-
-
 
 </body>
+
+</html>
