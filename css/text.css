@@ -54,7 +54,7 @@ table {
 
 body
 {
-background-image: url(../pics/contentbackground.png);
+background-image: url(../pics/blackorchid.png);
 }
 
 
@@ -72,8 +72,7 @@ float:left;
 background-color:#ffffff;
 margin-top:100px;
 margin:0 auto;
-max-width: 960px;
- 
+max-width: 960px; 
 }
 
 
@@ -83,6 +82,8 @@ background-color:#F0EAEA;
 margin-right: 100px;
 width: 900px;
 float:left;
+border: solid 5px silver;
+font-family:new Times New Roman;
 
 
 }
@@ -130,7 +131,8 @@ float:right;
     border: 1px solid black;
     border-bottom: none;
     width: 130px;
-    float:left;    
+    float: left;
+    
 
 }
 
@@ -142,7 +144,10 @@ list-style: none;
 #mainnav li 
 {
  border-bottom: 1px solid black;  
- list-style: none;     
+ list-style: none;
+
+
+   
 }
 
 #mainnav a
@@ -154,8 +159,7 @@ font-family: helvetica, Sans-Serif;
 font-weight: bold;
 display: block;
 padding: 10px;
-
-    
+   
 }
 
 #mainnav a:hover
@@ -168,6 +172,76 @@ color:#45377F;
 {
 background-color:#CC3F38;
 }
+
+
+
+
+/*------------------------ Spirits-----------------------------*/
+
+
+#social-list a
+{
+width: 24px;
+height: 24px;
+display: block;
+background-image: url(../pics/sprite.png);
+text-indent: 9999px;
+}
+
+#social-list li
+{
+float:left;
+list-style-type:none;
+margin-right:60px;
+}
+
+#google 
+{
+background-position: 0 312px
+}
+
+#google:hover
+{
+background-position: 0 0px    
+}
+
+
+#facebook 
+{
+background-position: 0  216px
+}
+
+#facebook:hover
+{
+background-position: 0 264px    
+}
+
+#coursepress
+{
+background-position: 0 120px
+}
+
+#coursepress:hover
+{
+background-position: 0 168px    
+}
+
+#sj
+{
+background-position:  0  24px
+}
+
+#sj:hover
+{
+background-position: 0 72px
+}
+
+
+
+
+
+
+
 
 /*---------- slut på navigatorn--------- */
 
