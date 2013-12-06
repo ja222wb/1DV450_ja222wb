@@ -78,15 +78,43 @@ max-width: 960px;
 
 #content
 {
-background-color:#F0EAEA;
+background-color:#FFF;
 margin-right: 100px;
 width: 900px;
 float:left;
 border: solid 5px silver;
 font-family:new Times New Roman;
-
-
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px; 
+border-radius: 15px; 
 }
+
+
+#photoinfo
+{
+background-color:#FFF;
+border:2px solid silver;
+float:left;
+width: 220px;
+height: 300px;
+margin-top:50px;
+margin-left:20px;
+}
+
+.photoinfo
+{
+width:150px;
+margin:5px;
+font-size:20px;  
+}
+
+.photoinfotext
+{
+font-size:12px;
+margin-left:5px;    
+}
+
+
 
 #bloggis ol, #bloggis ul 
 {
@@ -96,7 +124,12 @@ padding-left:2%;
 
 #footer
 {
-background-color:#924747;    
+background-color:#924747;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+float:left;
+width: 900px;
+     
 }
 
 #bloggis
@@ -106,12 +139,24 @@ margin-left: auto;
 margin-right: auto;    
 }
 
+
+#navigation
+{
+background-color:#7109AA;
+width:900px;
+height:50px;
+border: solid 2px silver;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;    
+}
+
 .bloggbox
 {
 background-image: url(../pics/backgroundpix.png);
 width: 400px;
 border: 2px solid #666;
-margin-bottom:  5px;    
+margin-bottom:  5px;
+margin-left:105px;    
 }
 
 .bloggpics
@@ -122,18 +167,22 @@ float:right;
 }
 
 
+
 /* ----------------------------------------meny-------------------------------------------- */
 
 
 #mainnav 
 
 {
-    border: 1px solid black;
+   
     border-bottom: none;
-    width: 130px;
     float: left;
-    
-
+    width:897px;
+    height:50px;
+    margin-left:245px;
+    margin-bottom: 60px;
+    margin-top:20px;
+    word-spacing:20px; 
 }
 
 #mainnav ul, #mainnav ol
@@ -145,7 +194,7 @@ list-style: none;
 {
  border-bottom: 1px solid black;  
  list-style: none;
-
+display:inline;
 
    
 }
@@ -153,19 +202,18 @@ list-style: none;
 #mainnav a
 {
 text-decoration: none;
-background-color:#BF6663;
+background-color:#7109AA;
 color: #EFE;
 font-family: helvetica, Sans-Serif;
 font-weight: bold;
-display: block;
-padding: 10px;
+padding: 5px;
    
 }
 
 #mainnav a:hover
 {
-background-color: #7F4c49;
-color:#45377F;    
+background-color: #FFd540;
+color:#000;    
 }
 
 #mainnav .active a 
@@ -263,6 +311,12 @@ margin-top: 10px;
 margin-bottom: 10px;  
 }
 
+.bloggen
+{
+font-size:20px;
+margin-left:101px;   
+}
+
 
 h2
 {
@@ -320,7 +374,12 @@ font-style:italic
 }
 
 
-
+.labb3
+{
+text-align: Center;
+margin-top: 10px;
+margin-bottom: 10px;	
+}
 
 
 
