@@ -129,6 +129,7 @@ border-bottom-right-radius: 15px;
 border-bottom-left-radius: 15px;
 float:left;
 width: 900px;
+
      
 }
 
@@ -301,7 +302,7 @@ background-position: 0 72px
 
 
 
-/*text taggar*/
+/*-------------text taggar--------------*/
 
 
 h1
@@ -381,5 +382,21 @@ margin-top: 10px;
 margin-bottom: 10px;	
 }
 
+.footer
+{
+padding-left: 10px;
+}
 
+
+/*-------classer till jacascript-----*/
+
+.hidden 
+{ 
+display: none; 
+}
+
+.unhidden
+ { 
+display: block;  
+ }
 

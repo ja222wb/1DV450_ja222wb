@@ -1,0 +1,157 @@
+﻿
+/* CSS Document */
+
+
+/*---------- här börjar print-formatet------------*/
+
+
+
+body{
+        color: black;
+        font-size: 87%;
+        font: 12pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+}
+
+ p, ol , dl , li {
+     list-style:none;
+}
+
+ a {
+color: #000;
+}
+
+
+table, td, th, em
+
+{
+    border:1px solid black;
+    font-size:17px;
+} 
+
+
+
+/*------Nollställning av ramverk-----*/
+
+#banner
+{
+display: none;
+
+}
+
+
+#navigation
+{
+display:none;  
+}
+
+#footer 
+{
+display: none;
+}
+
+#content
+{
+font-size: 17px;
+border: none;
+}
+
+#mainnav
+{
+display: none;
+border: none;
+}
+
+
+#bloggis
+{
+margin-left: inherit;
+width: auto;
+}
+
+
+.bloggbox
+{
+background-color:#FFF;
+border: none;
+margin-bottom:  5px; 
+width: auto;   
+}
+
+
+#photoinfo
+{
+display:none;
+}
+
+.photoinfo
+{
+display:none; 
+}
+
+.photoinfotext
+{
+display: none;    
+}
+
+
+
+/*-------- Rubrikformatering--------*/
+
+h1
+{
+text-align: center; 
+margin-top: 10px; 
+margin-bottom: 10px;  
+}
+
+
+h2
+{
+text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+font-style:italic;  
+}
+
+
+h3
+{
+text-align: left;
+font-size: 20px; 
+color:#000; 
+margin-top: 10px;  
+}
+
+h4
+{
+text-align: left;
+font-size: 17px;
+font-weight:bold;
+margin-bottom:5px;
+   
+}
+
+
+/*---------bildformatering-----------*/
+
+.presentationsbild
+{
+margin-left: inherit;    
+}
+
+
+/*---------länkformatering-----------*/
+
+
+#links a:link:after, a:visited:after
+
+{ 
+content: " [" attr(href) "] ";
+}
+
+
+
